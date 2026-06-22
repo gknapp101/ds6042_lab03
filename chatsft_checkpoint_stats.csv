@@ -1,0 +1,4 @@
+checkpoint,checkpoint_path,depth,n_embd,n_head,n_kv_head,seq_len,vocab_size,window_pattern,sft_step,val_bpb,num_iterations,warmup_ratio,warmdown_ratio,final_lr_frac,init_lr_frac,eval_every
+d6_sft_step00050,/home/nbz3de/.cache/nanochat/chatsft_checkpoints/d6/model_000050.pt,6,384,3,3,2048,8192,SSSL,50,0.7205569231823198,800,0.0,0.5,0.0,0.8,200
+d6_sft_step00125,/home/nbz3de/.cache/nanochat/chatsft_checkpoints/d6/model_000125.pt,6,384,3,3,2048,8192,SSSL,125,0.6411225980647516,2000,0.0,0.5,0.0,0.8,200
+d8_sft_step00050,/home/nbz3de/.cache/nanochat/chatsft_checkpoints/d8/model_000050.pt,8,512,4,4,2048,8192,SSSL,50,0.6184341475385224,800,0.0,0.5,0.0,0.8,200
